@@ -30,15 +30,8 @@ function imagemenu(button) {
     hideCurrentPage(button.parentElement);
     document.getElementById("image_menu").style.display = "block";
 }
-function showNoPopup() {
-    document.getElementById("mainContent").style.display = "none";
-    document.getElementById("sorry").style.display = "block";
-}
-function showNoPopup2()
-{
-    document.getElementById("sorry").style.display = "none";
-    document.getElementById("obey").style.display = "block"
-}
+
+
 function showYesPopup()
 {
     document.getElementById("sorry").style.display = "none";
