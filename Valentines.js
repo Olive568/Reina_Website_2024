@@ -113,6 +113,10 @@ function menu16(button) {
     hideCurrentPage(button.parentElement);
     document.getElementById("letter_16").style.display = "block";
 }
+function menu17(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_17").style.display = "block";
+}
 function begging(button)
 {
     hideCurrentPage(button.parentElement);
