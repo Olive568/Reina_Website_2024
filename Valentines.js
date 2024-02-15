@@ -24,7 +24,7 @@ function submitReasons() {
 }
 function backtostart(){
     hideCurrentPage(button.parentElement);
-    document.getElementById("body").style.display = "block";
+    document.getElementById("start").style.display = "block";
 }
 function imagemenu(button) {
     hideCurrentPage(button.parentElement);
