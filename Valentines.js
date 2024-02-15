@@ -22,6 +22,10 @@ function submitReasons() {
     document.getElementById("radioButtons").style.display = "none";
     document.getElementById("dates").style.display = "block";
 }
+function imagemenu(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("image_menu").style.display = "block";
+}
 function showNoPopup() {
     document.getElementById("mainContent").style.display = "none";
     document.getElementById("sorry").style.display = "block";
