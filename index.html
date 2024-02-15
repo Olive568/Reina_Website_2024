@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Styles.css">
+        <meta charset="UTF-8" />
+        <meta name="initital_view" content="width=device-width, initial-scale=1.0" />
+        <title>For my Reina</title>
+        <script src="Valentines.js" defer></script>
+    </head>
+    <body>
+        <div class="First">
+       <h1>Happy Valentines</h1> 
+       <h2>From your boyfriend</h2>
+    </div>
+    <div class="paragraph" id="mainContent">
+        <p>This is the first Valentines we spent with each other
+            <br>So I decided to make a little website for yo that you can open whenever you want
+            <br>this will be my first time making a proper website so please bear with me :3
+            <br>I remember yesterday when you were taking a nap next to me
+            <br>I don't know it just felt... peaceful. like my life is content.
+            <br>And there I realized I would love to spend more time with you
+            <br>more time together
+            <br>share my life with you
+            <br>Reina I want you to be a part of my life. right now you are already
+            <br>an incredible part of my life that I truly treasure
+            <br>Someone I would dedicate my life to
+            <br>I miss you so much. Im writing this after the first class of 2nd semester
+            <br>in class I was just thinking about skipping it just so I could be with you
+            <br>during PE just seeing you happy playing badminton was such a joy for me
+            <br>I wanted to hug you, kiss you, hold your arm, just be with you
+            <br>but it is as if life is just against us.  time is against us
+            <br>I would fight time itself to be with you
+            <br>I hope you would like this website. I like to think that this is my
+            <br>Promise to you that we will both have a bright future together
+            <br>A future where I don't have to message you goodmorning anymore
+            <br>or ask if you have eaten yesterday
+            <br>I wish for the day where I can cook you breakfast and wake you up
+            <br><strong>Reina I love you</strong>
+        </p>
+        <img src="https://images6.alphacoders.com/123/1233004.png " width="200" height="auto">
+        <p>will you be my valentine?</p>
+        <button class="button" onclick="showRadioButtons()">Yes</button>
+        <button class="button" onclick="showNoPopup()">No</button>
+        <br>
+        <button class="button" onclick="skip(this)">skip</button>
+    </div>
+    
+        <div id="radioButtons" class="content" style="display: none;">
+            <img src="https://i.pinimg.com/originals/14/a5/38/14a53879de084906c6ae56f3c8b050f4.gif" class="center">
+            <h1 class="center">YAYYYYY</h1>
+            <h3>Reasons why I like you</h3>
+            <ul>
+                <li>The way you wear your hoodie</li>
+                <li>The way you look confused when I just look at you</li>
+                <li>that you are always so jumpy</li>
+                <li>The way you hold my hand</li>
+                <li>The way you hold my thigh</li>
+                <li>How you are always positive with me</li>
+                <li>How you are always supportive of the relationship</li>
+                <li>How you always communicate with me</li>
+                <li>the way you kiss me</li>
+                <li>the way you light up when you talk about something</li>
+                <li>"Winnable"</li>
+                <li>Your voice</li>
+                <li>The way you pet me</li>
+                <li>I love you</li>
+                <li>I feel like I can never say it enough</li>
+                <li>the way you say "I love you"</li>
+                <li>Everything</li>
+                <li>your strengths</li>
+                <li>your flaws</li>
+                <li>Because you are Reina. The girl I love</li>
+            </ul>
+            <h3>Reason why you like me:</h3>
+            <input type="checkbox" name="reason" value="smart"> Smart<br>
+            <input type="checkbox" name="reason" value="funny"> Funny<br>
+            <input type="checkbox" name="reason" value="kind"> Kind<br>
+            <input type="checkbox" name="reason" value="handsome"> Handsome<br>
+            <input type="checkbox" name="reason" value="loving"> Loving<br>
+            <input type="checkbox" name="reason" value="uhuh"> ;)<br>
+            <input type="checkbox" name="reason" value="sweet"> Sweet<br>
+            <input type="checkbox" name="reason" value="understanding"> Understanding<br>
+            <button class="button" onclick="submitReasons()">Submit</button>
+        </div>
+        
+        <div class="Sorry" id="sorry"style="display: none;">
+            <h1>You think you have a choice?</h1>
+            <button class="button" onclick="showYesPopup()">Yes</button>
+            <button class="button" onclick="showNoPopup2()">no</button>
+        </div>
+        <div class="Obey" id="obey" style="display: none;">
+            <h1>That's more like it. so Obedient</h1>
+            <button class="button" onclick="showRadioButtons()">Continue</button>
+        </div>
+        <div class="Please" id="please" style="display: none;">
+            <h2>
+                Reina Please I love you. I want to go out with you
+                <br>Wait. it is wrong for me to beg
+                <br>Reina May I please take your hand this Valentines day?
+            </h2>
+            <button class="button" onclick="showRadioButtons()">YES!</button>
+            <button class="button" onclick="begging(this)">NO!</button>
+        </div>
+        <div class="Begging" id="begging" style="display: none;">
+            <h1>PLEASE REINA I BEG YOU. I LOVE YOU SO MUCH</h1>
+            <button class="button" onclick="showRadioButtons()">FINE!</button>
+        </div>
+        <div class="Dates" id="dates" style="display: none;">
+            <h1>What date would you like in the future?</h1>
+            <!--<form action="https://formspree.io/luislabapis@gmail.com" method="POST">-->
+                <img src="https://a3x2k4e2.rocketcdn.me/wp-content/uploads/2020/10/Enchanted-Kingdom.jpg"  width="200" height="auto"><input type="radio" name="date_option" checked>Amusement Park
+                <br>
+                <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1276,h_850,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/swtdutpzdalgkhjxerxg/GlamPicnicTicket-KlookPhilippines.jpg"  width="200" height="auto"><input type="radio" name="date_option">Picnic
+                <br>
+                <img src="https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/BACEE73ACA5F4520950A11320ECD6147/sctex-001-openroads.jpg"  width="200" height="auto"><input type="radio" name="date_option">Road trip
+                <br>
+                <img src="https://sgp1.digitaloceanspaces.com/tz-mag-ph/wp-content/uploads/2019/06/090906061111/image8.jpg"  width="200" height="auto"><input type="radio" name="date_option">Star gazing
+                <br>
+                <button type="submit" class="button" onclick="submitDate()">Submit</button>
+            <!--</form>-->
+        </div>
+        <div class="center" id="menu"style="display: none;">
+            <button class="buttonMenu" onclick="menu1(this)">The first day we met</button>
+            <button class="buttonMenu" onclick="menu2(this)">Me and you in my car</button>
+            <br>
+            <button class="buttonMenu" onclick="menu3(this)">Dunkin donuts</button>
+            <button class="buttonMenu" onclick="menu4(this)">meeting the family</button>
+            <br>
+            <button class="buttonMenu" onclick="menu5(this)">our first date</button>
+            <button class="buttonMenu" onclick="menu6(this)">The day we became official</button>
+            <br>
+            <button class="buttonMenu" onclick="menu7(this)">When you met my parents</button>
+            <button class="buttonMenu" onclick="menu8(this)">MOA</button>
+            <br>
+            <button class="buttonMenu" onclick="menu9(this)">New year</button>
+            <button class="buttonMenu" onclick="menu10(this)">January 7</button>
+            <br>
+            <button class="buttonMenu" onclick="menu11(this)">Retreat</button>
+            <button class="buttonMenu" onclick="menu12(this)">january 14</button>
+            <br>
+            <button class="buttonMenu" onclick="menu13(this)">our first monthsary</button>
+            <button class="buttonMenu" onclick="menu14(this)">Michael's birthday</button>
+            <br>
+            <button class="buttonMenu" onclick="menu15(this)">february 10</button>
+            <button class="buttonMenu" onclick="menu16(this)">february 13</button>
+        </div>
+        <div class="content" id="letter_1" style="display: none;">
+            <h1>The time I laid eyes on you</h1>
+            <div class="paragraph" id="mainContent">
+            <p>
+                I was just minding my own business and..... relapsing during the assembly
+                <br>Menzel was planning for a jamming session with me and sho
+                <br>Sooooo I brought my electric guitar
+                <br>my relapsing increased when Leanne was singing in front.
+                <br>when the assembly ended I went out with menzel until...
+                <br>Sir verge stopped me
+                <br>this is something I did not expect but I am so glad
+                <br>that it happened. you changed my life that day.
+                <br>a day that I would forever cherish and love
+                <br>I don't regret that I did not pay it mind at First.
+                <br>It may seem odd but my idea is that it's the world's
+                <br>way of making things better
+                <br>better in a way that I should become more mature,
+                <br>more loving,
+                <br>more understanding,
+                <br>before I could take your hand
+                <br>Reina. You are one the best event that happened that day.
+                <br>no
+                <br>this year
+                <br>I love you so much
+            </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div> 
+        <div class="content" id="letter_2" style="display: none;">
+            <h1>When I held your hand</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    The first time I held your hand I felt comfort.
+                    <br>the feeling of our fingers rubbing together
+                    <br>The warmth
+                    <br>is something I look forward to everyday
+                    <br>I think fondly to that day as it paved the way.
+                    <br>into me falling in love with you
+                    <br>It makes me happy that we spent time that day eventhough
+                    <br>It was only less than an hour
+                    <br>it's safe to say that day is a big step towards
+                    <br>building our relationship
+                    <br>AND ALSO IT WAS THE FIRST TIME I DROVE MY CAR TO school
+                    <br>I started driving on my own because of you
+                    <br>I really thank you for that
+                    <br>and also when I cuddled with you for the first time
+                    <br>It felt like all my worries went away
+                    <br>You truly are wonderful
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content" id="letter_3" style="display: none;">
+            <h1>I fell</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I only really started drinking dunkin donuts coffeee because of you
+                    <br>Really because it's near our school so we can go there often
+                    <br>now It has become a special place for me
+                    <br>The place where I started falling in love
+                    <br>It just felt so natural talking to you
+                    <br>Sharing stories with you
+                    <br>the way you look when you start talking
+                    <br>The way a smile just creeps up to you
+                    <br>I just wanted to hug you so bad
+                    <br>I'm so happy that we were so compatible that day
+                    <br>Actually Janaia asked me why I liked you Reina
+                    <br>I told her about my experience there and how it made me comfy
+                    <br>Happy
+                    <br>And how it all felt so natural
+                    <br>I would love to have more dunkin donuts dates with you
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>     
+        <div class="content"   id="letter_4" style="display: none;">
+            <h1>"di ko siya kilala"</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I just wanted to surprise you when I went to town
+                    <br>So I went to the anime shop in southmall
+                    <br>and I remembered that you liked Cinnamorol.
+                    <br>So I started looking for a Cinnamoroll
+                    <br>But there was no plushie :/. that sucks
+                    <br>So I saw a button so I got that instead
+                    <br>oh yeah me And jamikos group were doing
+                    <br>A project that time in southmall
+                    <br>Good thing we finished early
+                    <br>you looked so cute at town that time
+                    <br>and when I gave it to you I lovedddd your reaction
+                    <br>Actually I don't remember the reaction now
+                    <br>All I know is that I found it really cuteee.
+                    <br>And then your family showed up
+                    <br>And you were like you don't know me which was funny while I was just at the corner
+                    <br>But I knew not introducing myself would be really bad
+                    <br>So I did. and I'll  be honest I wasn't really nervous
+                    <br>As I was sure I want to start off serious with You
+                    <br>I had a really fun time eating with your family 
+                    <br>And I made sure to give a lasting impression on them
+                    <br>I want them to know that I would be responsible and mature enough for you
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_5" style="display: none;">
+            <h1>"Now it starts"</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    This will be the first time I'll be driving to Alabang
+                    <br>To festival
+                    <br>I was anxious but really excited. This will be a big event of my life
+                    <br>and boy when I picked you up you looked so amazing!!!!
+                    <br>I realized that time that we both will have a really amazing time together
+                    <br>I started driving and a bit quickly actually. but Don't worry you were in safe hands
+                    <br>It was my first time driving there so I did not really know where to park
+                    <br>I'm glad you helped me with the directions that time
+                    <br>When we entered we saw Elliot. he was mocking my fit lmao
+                    <br>so when we went to the theatre I did not really like the available movies
+                    <br>But I was good with marvel so yeah we decided to watch it
+                    <br>I really enjoyed the movie with you. I loved seeing your reactions
+                    <br>And so we ate at pancake house
+                    <br>I'm sorry for thinking about ramen kuroda
+                    <br>It was really the only thing I thought of at the time
+                    <br>Pancake house was pretty nostalgic though
+                    <br>and lastly tim horton was really good. I love it
+                    <br>I really love our first date. It was chill but also exciting
+                    <br>I'm glad that I gave you a good experience
+                    <br>still sucks I forgot the flowers =(
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_6" style="display: none;">
+            <h1>"My Girl"</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I honestly still can't believe it That you are my girlfriend now
+                    <br>My very first girlfriend
+                    <br>It just hits very different that label
+                    <br>Someone that trusts you. cares for you. is there for you, loves you
+                    <br>It is something so beautiful that it makes me so happy
+                    <br>I am sooooo happy that I am your boyfriend now. also your first
+                    <br>The gojo figure I bought was from the cosplay convention. I knew I had to buy it
+                    <br>though the love letter... I knew you would love it
+                    <br>I'll be honest I was actually crying when I was writing it. my emotions were just flowing
+                    <br>I love you so much Reina it's just so nice this feeling
+                    <br>Of being in love with you. and being loved back
+                    <br>And our first kiss....
+                    <br>wow
+                    <br>I loved how you were also kind of aggresive
+                    <br>AND YOU GOT SO GOOD AT KISSING INSTANTLY
+                    <br>You were so impressive at it I was surprised
+                    <br>Dear joe will be such a good place for me
+                    <br>As I will always remember that confession I made
+                    <br>and the first kiss we shared
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_7" style="display: none;">
+            <h1>Introduction</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I 100% did not expect for anthonette to suggest going to my house
+                    <br>I only went to the event in southville for you
+                    <br>since I did start missing you again at that time
+                    <br>I'm glad I did
+                    <br>The event was fun. especially since you were theatre
+                    <br>but when we went home anthonette decided we should go to my place
+                    <br>So we did and damn that was an amazing decision
+                    <br>I could have introduced you better to my parents
+                    <br>but what matters is that they accept you as part of the family
+                    <br>Actually when I was gonna introduce you my mom was shy and told me
+                    <br>not to worry as you are already family now
+                    <br>It was nice. we watched a movie together
+                    <br>what was insane though was the kisses
+                    <br>You were really aggresive and I love it
+                    <br>but what I liked more is your sweetness. you are really sweet
+                    <br>AND CUTE DURING THAT time
+                    <br>YOU WERE SOOOOOOO CUTE
+                    <br>I felt sad you had to go home but well
+                    <br>theres always next time right?
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_8" style="display: none;">
+            <h1>"Pyrrhic victory"</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    The original plan was for us to go to southmall and have a chill date
+                    <br>well that kinda changed when tricia invited me to go to monthsary
+                    <br>And I know you loved adventure so of so we went
+                    <br>We also had a lot of fun waiting for my friends to come over
+                    <br>I know you had a lot of fun too waiting
+                    <br>so we were off to MOA 
+                    <br>and when we arrived we first went to my friends
+                    <br>And I left you...... stupid me. honestly I just did not want to leave my friend early
+                    <br>I'm sorry for leaving you that time. also Thank you so much for lining up in KFC
+                    <br>And so we ate KFC. it was nice as I was starving at the TIME
+                    <br>And finally some alone time with you
+                    <br>and so we went around in my hot af CIA cosplay
+                    <br>We went outside and got onto the rides
+                    <br>it was really fun especially the reactions of nhico and Michael
+                    <br>and also you met hori. too bad we did not get to do the double date
+                    <br>Ikea was actually pretty good. I would love to eat there again
+                    <br>Overall I loved the experience eventhough it hurt my wallet a lot
+                    <br>I loved the way you comforted me when I told you I was scared
+                    <br>scared of your fam being angry for making you come home late
+                    <br>I'm super thankful that you calmed me down
+                    <br>I want to go to MOA with you again. just the two of us
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_9" style="display: none;">
+            <h1>New me new you</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    The first time I spent a new year while having a girlfriend
+                    <br>It's a nice experience. Though I wish I was able to spend it with you
+                    <br>hell my family thinks its common courtesy for a guy to spend new year and christmas with the girl
+                    <br>But we both know it's not possible knowing that we need to hide it for now
+                    <br>God I wish for the day I could just introduce myself to your entire family
+                    <br>As your boyfriend
+                    <br>I wrote you a short letter on messenger that time
+                    <br>I just felt it was right. I wanted to to something nice to you on new years
+                    <br>And I did
+                    <br>I was craving for you that time. your voice is just something I love hearing everyday
+                    <br>and so we called and the rest was history
+                    <br>I am so happy I started the year with you by my side
+                    <br>We will make this year ours
+                    <br>Happy new year my love
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_10" style="display: none;">
+            <h1>Getting heated</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I mean it was supposed to be just a hangout together
+                    <br>and also unli wings. God I love unli wings
+                    <br>But as you know things got a bit... heated
+                    <br>I actually did not really expect it to be like that but oh well
+                    <br>I guess new year means a new step in the relationship
+                    <br>And I am so glad we can make that step together
+                    <br>We also need to go to unli wings again. I love eating it so much its so worth It
+                    <br>OH and also samgyup we should go there sometime
+                    <br>Lmaooo we both are deafened on discord right now. and yes I am cramming this website
+                    <br>Though with the money issue we might be stuck with chill dates for a while which is also good
+                    <br>As long as I spend time with you I enjoy it a lot
+                    <br>and this is the first time in many we will have similar Dates
+                    <br>I enjoy it a lot though. just being with you.
+                    <br>Thank you Reina. for trusting me
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_11" style="display: none;">
+            <h1>The stars above</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I always kept thinking about you as I went to school
+                    <br>realizing that I won't see you for two days. that sucked a lot
+                    <br>especially since you just got a Hime cut. God you were so pretty
+                    <br>actually in the retreat I kept replaying the two videos you sent to me
+                    <br>and just stared at you
+                    <br>your beauty
+                    <br>complexion
+                    <br>hair
+                    <br>lips...
+                    <br>I was really concerned when you told me you did not want to called
+                    <br>I was kind of overthinking if I did something wrong
+                    <br>though when you messaged me again the next day it made me happy
+                    <br>I decided to make you a bouqet as I thought it would make you really happy
+                    <br>1 of the flowers (the white ones) had so many ants inside its actually kinda creepy
+                    <br>me and sho cleaned it up
+                    <br>I still hate the prettiest flower fell apart before it got to you
+                    <br>I felt sorry about the news. I did not really know what to say honestly
+                    <br>I wanted to hug you, and just be there for you
+                    <br>but school just sucks
+                    <br>you indeed look just like the stars I saw that night
+                    <br>or atleast I feel the same way when I look at you
+                    <br>I wish I could have gazed upon them with you that night
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_12" style="display: none;">
+            <h1>hands</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    our first actual chill date. I loved watching it with you
+                    <br>eventhough most of the time we forgot about it and were in our own little world
+                    <br>I love your warmth. your scent
+                    <br>it's intoxicating
+                    <br>The way you breath, The way you move is something I would see in a mueseum
+                    <br>You are amazing Reina. You always have been
+                    <br>Don't let anyone make you think otherwise
+                    <br>you made my day complete
+                    <br>You are the first person I think of in the morning
+                    <br>I am yours
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_13" style="display: none;">
+            <h1>Crafting a future</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    The paper sunflower I made wasn't really that good in my opinion
+                    <br>same with the love letter. I just added an extra page for it
+                    <br>yours... is just perfect. the design the words it just feels me with joy
+                    <br>sometimes when I can't sleep at night I would just read the letter you gave me
+                    <br>over
+                    <br>and over again
+                    <br>it makes me feel loved. It makes me feel you are there just beside me
+                    <br>I'm going to make a letter for you later
+                    <br>I hope you will like it
+                    <br>The first monthsary is a special ones
+                    <br>It made me realize how important you are to me
+                    <br>I look forward to are upcoming monthsary. and anniversaries 
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_14" style="display: none;">
+            <h1>Movie date</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    It's nice that you now see my friends during that party
+                    <br>Though I did feel like you felt out of place during that TIME
+                    <br>I made sure to stay with you and be with you
+                    <br>Cutting the cake with you was super fun and enjoyable I loved it
+                    <br>I also found it funny how when michael and anthonette was taking a picture
+                    <br>Michael's face was just like :|
+                    <br>so nochalant looking
+                    <br>Anyways when it ended we had a quick date
+                    <br>I enjoyed it a lot though I wish we were able to spend more time together
+                    <br>There are more nights like that to come though
+                    <br>and more parties coming up
+                    <br>I'm excited to spend those parties with you
+                    <br>I'm gonna show you off to everyone!!!
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_15" style="display: none;">
+            <h1>Budget cuts</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    Another chill date
+                    <br>Well there is nothing we can do since we are both saving money
+                    <br>I liked your clothes that time it was really comfy and cute
+                    <br>I would like to see you wear those again on chill Dates
+                    <br>maybe at a cafe? or a gaming lounge? if they still exist
+                    <br>There was one back then but its already closed which sucks
+                    <br>you sleeping right beside me made me so content with life
+                    <br>as if my life revolved around seeing you peaceful and happy with me
+                    <br>I look forward to the time I could see that face of yours everyday 
+                    <br>it's cute
+                    <br>It's calm moments like these that reminds me that "I love you so much"
+                    <br>and "I want to spend the rest of my life with you"
+                    <br>four more days and I'll show my love again to you
+                </p>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+        <div class="content"   id="letter_16" style="display: none;">
+            <h1>44 minutes before</h1>
+            <div class="paragraph" id="mainContent">
+                <p>
+                    I am writing this 44 minutes before valentines starts
+                    <br>it actually makes me so happy that I was able to make this website
+                    <br>It was so tiring but super FUN. Im gonna write a letter in a bit too
+                    <br>I hope you would like this website. I want this to be a reminder of my goad
+                    <br>a goal for all my acts of love to be viewable to you. forever
+                    <br>I love you reina so much
+                    <br>It means so much to me that you are always there for me
+                    <br>in my highs and lows you are there. supporting me. guiding me
+                    <br>Happy valentines day reina
+                    <br>our first valentines together
+                </p>
+                <h6>Luis Oliver</h6>
+            </div>
+            <button class="button" id="back_button" onclick="goback(this)">Go back</button>
+        </div>
+    </body>
+</html>
