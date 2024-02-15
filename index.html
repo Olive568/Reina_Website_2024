@@ -27,16 +27,13 @@
         </p>
         <img src="https://images6.alphacoders.com/123/1233004.png " width="200" height="auto">
         <p>will you be my valentine?</p>
-        <button class="button" onclick="showRadioButtons()">Yes</button>
-        <button class="button" onclick="showNoPopup()">No</button>
-        <br>
-        <button class="button" onclick="skip(this)">skip</button>
+        <button class="button" onclick="showRadioButtons()">Reasons I like you</button>
+        <button class="button" onclick="skip(this)">Menu</button>
     </div>
     
         <div id="radioButtons" class="content" style="display: none;">
             <img src="https://i.pinimg.com/originals/14/a5/38/14a53879de084906c6ae56f3c8b050f4.gif" class="center">
-            <h1 class="center">YAYYYYY</h1>
-            <h3>Reasons why I like you</h3>
+            <h1 class="center">Reasons why I like you</h1>
             <ul>
                 <li>The way you wear your hoodie</li>
                 <li>The way you look confused when I just look at you</li>
@@ -58,55 +55,8 @@
                 <li>your strengths</li>
                 <li>your flaws</li>
                 <li>Because you are Reina. The girl I love</li>
-            </ul>
-            <h3>Reason why you like me:</h3>
-            <input type="checkbox" name="reason" value="smart"> Smart<br>
-            <input type="checkbox" name="reason" value="funny"> Funny<br>
-            <input type="checkbox" name="reason" value="kind"> Kind<br>
-            <input type="checkbox" name="reason" value="handsome"> Handsome<br>
-            <input type="checkbox" name="reason" value="loving"> Loving<br>
-            <input type="checkbox" name="reason" value="uhuh"> ;)<br>
-            <input type="checkbox" name="reason" value="sweet"> Sweet<br>
-            <input type="checkbox" name="reason" value="understanding"> Understanding<br>
-            <button class="button" onclick="submitReasons()">Submit</button>
-        </div>
-        
-        <div class="Sorry" id="sorry"style="display: none;">
-            <h1>You think you have a choice?</h1>
-            <button class="button" onclick="showYesPopup()">Yes</button>
-            <button class="button" onclick="showNoPopup2()">no</button>
-        </div>
-        <div class="Obey" id="obey" style="display: none;">
-            <h1>That's more like it. so Obedient</h1>
-            <button class="button" onclick="showRadioButtons()">Continue</button>
-        </div>
-        <div class="Please" id="please" style="display: none;">
-            <h2>
-                Reina Please I love you. I want to go out with you
-                <br>Wait. it is wrong for me to beg
-                <br>Reina May I please take your hand this Valentines day?
-            </h2>
-            <button class="button" onclick="showRadioButtons()">YES!</button>
-            <button class="button" onclick="begging(this)">NO!</button>
-        </div>
-        <div class="Begging" id="begging" style="display: none;">
-            <h1>PLEASE REINA I BEG YOU. I LOVE YOU SO MUCH</h1>
-            <button class="button" onclick="showRadioButtons()">FINE!</button>
-        </div>
-        <div class="Dates" id="dates" style="display: none;">
-            <h1>What date would you like in the future?</h1>
-            <!--<form action="https://formspree.io/luislabapis@gmail.com" method="POST">-->
-                <img src="https://a3x2k4e2.rocketcdn.me/wp-content/uploads/2020/10/Enchanted-Kingdom.jpg"  width="200" height="auto"><input type="radio" name="date_option" checked>Amusement Park
-                <br>
-                <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1276,h_850,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/swtdutpzdalgkhjxerxg/GlamPicnicTicket-KlookPhilippines.jpg"  width="200" height="auto"><input type="radio" name="date_option">Picnic
-                <br>
-                <img src="https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/BACEE73ACA5F4520950A11320ECD6147/sctex-001-openroads.jpg"  width="200" height="auto"><input type="radio" name="date_option">Road trip
-                <br>
-                <img src="https://sgp1.digitaloceanspaces.com/tz-mag-ph/wp-content/uploads/2019/06/090906061111/image8.jpg"  width="200" height="auto"><input type="radio" name="date_option">Star gazing
-                <br>
-                <button type="submit" class="button" onclick="submitDate()">Submit</button>
-            <!--</form>-->
-        </div>
+            <button class="button" onclick="skip()">Submit</button>
+        </div>       
         <div class="center" id="menu"style="display: none;">
             <button class="buttonMenu" onclick="menu1(this)">The first day we met</button>
             <button class="buttonMenu" onclick="menu2(this)">Me and you in my car</button>
