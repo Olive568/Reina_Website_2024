@@ -23,7 +23,7 @@ function submitReasons() {
     document.getElementById("dates").style.display = "block";
 }
 function backtostart(button){
-    hideCurrentPage(button.parentElement);
+    document.getElementById("radioButtons").style.display = "none";
     document.getElementById("start").style.display = "block";
 }
 function imagemenu(button) {
