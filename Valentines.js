@@ -24,7 +24,7 @@ function submitReasons() {
 }
 function backtostart(button){
     document.getElementById("radioButtons").style.display = "none";
-    document.getElementById("start").style.display = "block";
+    document.getElementById("mainContent").style.display = "block";
 }
 function imagemenu(button) {
     hideCurrentPage(button.parentElement);
