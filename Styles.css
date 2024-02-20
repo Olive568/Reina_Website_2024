@@ -23,6 +23,11 @@ body
     font-size: 20px;
     padding: 6px 9px;
 }
+.menu-container
+{
+    width: 100%;
+
+}
 .button:hover {
     background-color: pink;
     color: white;
@@ -52,4 +57,6 @@ body
   margin-right: auto;
   width: 50%;
   border-style: solid;
+
+  background-color: rgb(243, 145, 177);
 }
