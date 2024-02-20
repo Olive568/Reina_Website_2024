@@ -26,6 +26,10 @@ function backtostart(button){
     document.getElementById("radioButtons").style.display = "none";
     document.getElementById("mainContent").style.display = "block";
 }
+function backtostartmenu(button){
+    hideCurrentPage(button.parentElement);
+    document.getElementById("mainContent").style.display = "block";
+}
 function imagemenu(button) {
     hideCurrentPage(button.parentElement);
     document.getElementById("image_menu").style.display = "block";
